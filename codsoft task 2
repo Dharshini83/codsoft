@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <body style="background-color:pink";>
+    <header>
+        <h1>Welcome to the Job Portal</h1>
+    </header>
+    <section id="featured-jobs">
+        <h2>Featured Job Listings</h2>
+        <div class="job-listings">
+            <!-- Job Listings will be dynamically populated here by React -->
+        </div>
+    </section>
+    <!-- Job Listings Page (job-listings.html) -->
+<section id="job-listings">
+    <input type="text" id="search-bar" placeholder="Search jobs...">
+    <div id="jobs-container">
+        <!-- Job Listings will be dynamically populated by React -->
+    </div>
+</section>
+<!-- Job Detail Page (job-detail.html) -->
+<section id="job-detail">
+    <h2>Job Title</h2>
+    <p id="job-description">Software engineers design, develop, test, and maintain software applications. They work on building new software products or improving existing ones, ensuring that they run smoothly and efficiently.</p>
+    <button>Apply Now</button>
+</section>
+<!-- Employer Dashboard (employer-dashboard.html) -->
+<section id="employer-dashboard">
+    <h2>Your Job Listings</h2>
+    <button>Create New Job</button>
+    <div id="posted-jobs">
+        <!-- Display posted jobs dynamically -->
+    </div>
+</section>
+<!-- Candidate Dashboard (candidate-dashboard.html) -->
+<section id="candidate-dashboard">
+    <h2>Your Profile</h2>
+    <button>Update Profile</button>
+    <h3>Applied Jobs</h3>
+    <div id="applied-jobs">
+        <!-- Display applied jobs dynamically -->
+    </div>
+</section>
+<!-- Job Application Page (apply-job.html) -->
+<section id="job-application">
+    <h2>Apply for Job</h2>
+    <form action="/apply" method="POST" enctype="multipart/form-data">
+        <input type="file"
+
+
+
+
+
+   
